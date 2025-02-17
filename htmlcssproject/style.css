@@ -1,0 +1,565 @@
+body{
+    font-family: "Lato", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 100%;
+}
+.nav ul li {
+    display: inline;
+    padding-right: 20px;
+    font-size: 20px;
+    transition: 1s;
+}
+ ul li:hover{
+    
+color: rgb(164, 133, 133);
+font-size: 22px;
+
+}
+.nav{
+    margin-right: 80px;
+}
+.buttons{
+    margin-right: 100px;
+}
+.buttons button{
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px
+}
+.head{
+    width:400px;
+    padding-top: 80px;
+
+}
+.head h1{
+    font-size: 50px;
+}
+.head p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.head button{
+    width: 190px;
+background-color: rgb(53, 53, 144);
+padding: 10px;
+font-size: 17px;
+color: white;
+border-radius: 9px;
+margin-top: 70px;
+transition: 1s all;
+}
+.head button:hover{
+    transform: scale(0.9);
+}
+
+
+main{
+
+    display: flex;
+    margin: auto;
+    justify-content:space-around;
+    width: 100%;
+}
+.headimg{
+    position: relative;
+}
+.imgs img{
+    margin-top: 20px;
+    width: 350px;
+    height: 490px;
+    border-radius: 15px;
+    
+}
+.box{
+    width: 220px;
+    height: 90px;
+    background-color: rgba(8, 8, 41, 0.967);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: -40%;
+}
+.box h3{
+    font-size: 15px;
+    margin-left: 50px;
+    color: gold;
+}
+
+.logos{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    margin-top: 50px;
+}
+.logos img{
+    width: 120px;
+    margin: auto;
+}
+.services{
+    margin-top: 20px;
+}
+
+.services h1 {
+margin: auto;
+width: 80%;
+}
+.services p{
+margin: auto;
+width: 80%;
+margin-top: 10px;
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+.card{
+    width: 400px;
+    /* padding: 20px; */
+    text-align: center;
+}
+.card i{
+    font-size: 40px;
+    margin-top: 30px;
+    
+}
+.card h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.card p{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.services2{
+    display: flex ;
+    margin-top: 120px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(232, 217, 217, 0.723);
+    position: relative;
+}
+
+.section{
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.section p {
+margin-top: 9px;
+}
+.section h1{
+    margin-top: 5px;
+}
+.section button{
+    padding: 10px;
+    width: 170px;
+    font-size: 16px;
+    background-color: rgb(53, 53, 144);
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.section button:hover{
+    transform: scale(0.9);
+}
+
+ 
+.img1 img{
+    position: absolute;
+    top: -19%;
+    left: 50%;
+    width: 300px;
+    border-radius: 9px;
+    height: 380px;
+    box-shadow: 10px 10px 10px black;
+}
+.img2 img{
+    position: absolute;
+    top: -9%;
+    left: 73%;
+    border-radius: 9px;
+    height: 250px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.img3 img{
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    border-radius: 8px;
+    height: 150px;
+    box-shadow: 10px 10px 10px black;
+}
+.img4 img{
+    position: absolute;
+    top: 70%;
+    left: 76%;border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    height: 300px;
+}
+
+.projects{
+    margin: auto;
+    margin-top: 200px;
+    width: 80%;
+}
+.pac{
+    width: 600px;
+    margin-top: 10px;
+    padding: 5px;/
+}
+
+.projimg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    /* margin-left: 20px; */
+gap: 25px;
+    text-align: center;
+}
+.proj1{
+    width: 390px;
+}
+.proj1 img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.proj1 img:hover{
+    transform: scale(0.9);
+}
+
+.proj1 h1{
+    margin-top: 10px;
+    font-size: 23px;
+}
+.proj1 p{
+    margin-top: 9px;
+    /* width: 300px; */
+    text-align: center;
+}
+
+.projects button{
+width: 190px;
+background-color: rgb(53, 53, 144);
+padding: 10px;
+font-size: 17px;
+color: white;
+border-radius: 9px;
+margin-top: 50px;
+margin-left: 40%;
+transition: all 1s;
+}
+
+.projects button:hover{
+    transform: scale(0.9);
+}
+
+.projsect{
+    display: flex;
+    margin-top: 140px;
+    background-color: rgba(232, 217, 217, 0.723);
+    position: relative;
+    height: 350px;
+    
+}
+.abouts{
+    margin-left: 800px;
+    width: 600px;
+    height: 200px;
+    padding-top: 80px;
+}
+.abouts h1{
+    margin-top: 7px;
+}
+.abouts p{
+    margin-top: 7px;
+}
+.abouts button{
+    margin-top: 20px;
+    width: 160px;
+background-color: rgb(53, 53, 144);
+padding: 10px;
+font-size: 17px;
+color: white;
+border-radius: 9px;
+transition: all 1s;
+}
+.abouts button:hover{
+  transform: scale(0.9);
+}
+
+
+.img9 img{
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    left: 15%;
+    border-radius: 9px;
+    top: -20%;
+}
+
+.blogs{
+    margin: auto;
+    width: 80%;
+    margin-top: 150px;
+}
+.b-p{
+    width: 600px;
+    margin-top: 10px;
+}
+
+.office{
+    display: grid;
+    gap: 60px;
+    margin-top: 50PX;
+    /* margin: auto; */
+    grid-template-columns: auto auto auto;
+}
+.employe p{
+    margin-top: 10px;
+}
+.employe h4{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.employe button{
+    margin-top: 10px;
+    width: 120px;
+background-color: rgb(29, 93, 120);
+padding: 10px;
+font-size: 13px;
+color: white;
+border-radius: 7px;
+transition: all 1s;
+}
+
+.employe button:hover{
+    transform: scale(0.9);
+}
+.bts{
+ margin-left: 42%;
+ margin-top: 40px;
+ width: 160px;
+background-color: rgb(53, 53, 144);
+padding: 10px;
+font-size: 17px;
+color: white;
+border-radius: 9px;
+transition: 1s;
+}
+.bts:hover{
+    transform: scale(0.9);
+}
+
+
+
+.caption{
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.cap{
+    display: flex;
+    margin-top: 50px;
+}
+.capt{
+    width: 450px;
+    border-radius: 9px;
+    margin-right: 20px;
+    padding: 40px;
+    background-color: rgb(8, 8, 41);
+    color: white;
+}
+.capt h3{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: right;
+    color: gold;
+
+}
+
+.pricing{
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.rng{
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.price{
+    width: 450px;
+    /* border: 3px solid rgb(128, 128, 128); */
+margin-right: 20px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.d-flex p {
+    font-size: 22px;
+   font-weight: 800
+   ;
+    margin-left: 120px;
+}
+.price i{
+    font-size: 40px;
+}
+.price h2{
+    margin-top: 28px
+}
+
+.price p{
+    width: 300px;
+    margin-top: 12px;
+}
+
+.price ul{
+    list-style: none;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price ul li{
+    margin-top: 12px;
+}
+
+.price button{
+    width: 110px;
+    background-color: rgb(53, 53, 144);
+    padding: 7px;
+    font-size: 17px;
+    color: white;
+    border-radius: 9px;
+    margin-top: 19px;
+    margin-left: 50px;
+    transition: all 1s;
+}
+.price button:hover{
+    transform:scale(0.9) ;
+    cursor: pointer;
+}
+
+
+
+footer{
+    margin-top: 50px;
+    
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(14, 14, 62);
+    color: white;
+}
+
+.f-log img{
+    width: 200px;
+    height: 100px;
+    
+    
+}
+.fot-p{
+    font-weight: bold;
+}
+.f-h h1{
+    font-size: 20px;
+}
+
+section{
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+    position: relative;
+
+}
+
+section form{
+    margin-top: 90px;
+}
+
+form input{
+    width: 480px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    width: 480px;
+    height: 140px;
+}
+
+form button{
+
+    width: 200px;
+    background-color: rgb(53, 53, 144);
+    padding: 9px;
+    font-size: 17px;
+    color: white;
+    border-radius: 9px;
+    margin-top: 40px;
+    transition:  all 1s;
+
+}
+form button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+ .f-1 img{
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    border-radius: 8px;
+    top: 15%;
+    left: 46%;
+ }
+
+ .f-2 img{
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    border-radius: 8px;
+    left: 46%;
+    top: 51%;
+    
+ }
+.f-3 img{
+    position: absolute;
+    width: 350px;
+    border-radius: 9px;
+    height: 300px;
+    top: 35%;
+    left: 72%;
+}
