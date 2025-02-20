@@ -51,12 +51,17 @@ img{
     padding:10px;
     
 }
+.sidebag li:hover{
+    color: black;
+    background-color: rgba(141, 133, 133, 0.634);
+}
 li{
+    width: 100px;
     list-style: none;
-    margin-right: 30px;
+    /* margin-right: 0px; */
 }
 li img {
-    width: 60px;
+    width: 40px;
     height: 90px;
 
 }
@@ -64,11 +69,15 @@ li img {
     width: 90px;
     height: 50px;
 }
+
+
+
  ul li:hover{
     /* padding: 10px; */
     /* margin-top: 50px; */
 color: rgb(164, 133, 133);
-font-size: 22px;
+font-size: 21px;
+/* background-color: rgba(148, 136, 136, 0.164); */
 
 }
 .nav{
@@ -82,6 +91,90 @@ font-size: 22px;
     margin-right: 10px;
     padding: 5px
 }
+
+.menu-button{
+    display: none;
+}
+
+/*                                      nav media query */
+
+@media (min-width: 461px) and (max-width:800px){
+    .hide{
+        display: none;
+    }
+    .sidebag{
+        width: 80%
+    }
+    
+    .buttons{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+   
+
+    .head h1 {
+     color: red;
+     font-size: 30px !important;
+     /* margin-left: 20px !important; */
+    }
+    .head p {
+        font-size: 19px !important;
+    }
+    .head button{
+        width: 120px !important;
+        font-size: 17px;
+    }
+    .headimg{
+        margin-left: 20px;
+    }
+    .imgs img {
+        width: 250px !important;
+        height: 350px !important;
+    }
+    .box{
+        width: 200px !important;
+        height: 60px !important;
+        font-size: 11px;
+    }
+}
+
+@media  ( max-width:1180px){
+    
+    .sidebag{
+        width: 80%;
+
+    }
+    
+    .buttons{
+        display: none;
+    }
+}
+
+@media (max-width:460px){
+    
+    .sidebag{
+        width: 100%;
+    
+        transition: 1s ease-out;
+    }
+    .hide{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .sidebag:hover{
+        transform: scale(1);
+        
+    }
+    /* .buttons{
+        display: none;
+    } */
+}
+
+
 .head{
     width:400px;
     padding-top: 80px;
@@ -101,7 +194,7 @@ padding: 10px;
 font-size: 17px;
 color: white;
 border-radius: 9px;
-margin-top: 70px;
+margin-top: 40px;
 transition: 1s all;
 }
 .head button:hover{
