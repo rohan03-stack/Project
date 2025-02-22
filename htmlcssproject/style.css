@@ -203,6 +203,7 @@ font-size: 21px;
     main{
         width:   90% !important;
         margin: auto !important;
+
         display: flex !important;
        
     }
@@ -221,12 +222,13 @@ font-size: 21px;
     }
 
     .head button {
-        width: 100px !important;
+        width: 90px !important;
         font-size: 12px !important;
         margin-left: 20px !important;
     }
     .imgs{
         margin-right: 20% !important;
+        margin-top: 17% !important;
     }
     .imgs img{
         width: 160px !important;
@@ -241,7 +243,7 @@ font-size: 21px;
         /* position: absolute !important; */
         width: 70% !important;
         height: 50px !important;
-        top: 70% !important;
+        top: 76% !important;
         left: -30% !important;
         font-size: 12px !important;
 
@@ -256,10 +258,69 @@ font-size: 21px;
     }
 
 
+    .logos img{
+        width: 100px !important;
+    }
+
+    
+    .services h1{
+        font-size: 20px !important;
+        margin-top: 50px !important;
+    }
+    .container{
+        display: block !important;
+        /* justify-items: center !important; */
+        margin-right: 100px !important;
+    
+    }
+    .card {
+    
+    
+        font-size: 14px !important;
+       
+   
+    }
+    .services2{
+        height: 250px !important;
+    }
+    .section{
+        font-size: 10px !important;
+        margin-top: 30px !important;
+     
+    
+
+    }
+    .section h1{
+        font-size: 15px !important;
+    }
+
+    .section p {
+        width: 130px !important;
+    }
+    .section button{
+        width: 67px !important;
+        font-size: 8px !important;
+    }
+
+
 
     /* .buttons{
         display: none;
     } */
+      .img1 img {
+        width: 100px !important;
+        height: 170px !important;
+        margin-right: 100px !important;
+        box-shadow: 5px 5px 10px black !important;
+     }
+      .img2 img{
+        width: 80px !important;
+        height: 110px !important;
+        left: 78% !important;
+        top: -4% !important;
+        box-shadow: 5px 5px 10px black !important;
+        
+     }
 }
 
 
@@ -384,8 +445,8 @@ margin-top: 10px;
 
 .section{
     width: 400px;
-    margin-left: 150px;
-    margin-top: 100px;
+    margin-left: 10%;
+    margin-top: 7%;
 }
 .section p {
 margin-top: 9px;
