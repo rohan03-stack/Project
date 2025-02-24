@@ -38,8 +38,7 @@ img{
     background-color: rgba(255, 255, 255, 0.508);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0,0,0,0.1);
-    display: none
-    ;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -281,25 +280,25 @@ font-size: 21px;
    
     }
     .services2{
-        height: 250px !important;
+        height: 540px !important;
     }
     .section{
-        font-size: 10px !important;
+        /* font-size: 20px !important; */
         margin-top: 30px !important;
      
     
 
     }
     .section h1{
-        font-size: 15px !important;
+        font-size: 25px !important;
     }
 
     .section p {
-        width: 130px !important;
+        width: 300px !important;
     }
     .section button{
-        width: 67px !important;
-        font-size: 8px !important;
+        width: 107px !important;
+        font-size: 11px !important;
     }
 
 
@@ -308,30 +307,33 @@ font-size: 21px;
         display: none;
     } */
       .img1 img {
-        width: 100px !important;
+        width: 150px !important;
         height: 170px !important;
+        top: 52% !important;
+        left: 10% !important;
         margin-right: 100px !important;
         box-shadow: 5px 5px 10px black !important;
      }
       .img2 img{
-        width: 80px !important;
+        width: 120px !important;
         height: 110px !important;
-        left: 78% !important;
-        top: -10% !important;
+        left: 56% !important;
+        top: 58% !important;
         box-shadow: 5px 5px 10px black !important;
         
      }
      .img3 img{
-        width: 90px !important;
-        height: 100px !important;
-        left: 50% !important;
-        top: 77% !important;
+        width: 120px !important;
+        height: 120px !important;
+        left: 20% !important;
+        top: 89% !important;
         box-shadow: 5px 5px 10px black !important;
      }
      .img4 img{
-        width: 90px !important;
+        width: 130px !important;
         height: 170px !important;
-        top: 60% !important;
+        left: 58% !important;
+        top: 94% !important;
         box-shadow: 5px 5px 10px black !important;
      }
 
@@ -343,8 +345,18 @@ font-size: 21px;
         width: 330px !important;
         font-size: 17px !important;
      }
+     #bs{
+        width: 120px !important;
+        font-size: 17px !important;
+        /* margin-right: 100px !important; */
+        /* margin-right: 30% !important; */
+     }
      .projimg{
         display: block !important;
+     }
+     .projects button{
+        width: 120px !important;
+        margin-left: 90px !important;
      }
     
     
@@ -362,6 +374,63 @@ font-size: 21px;
      .proj1 p{
         width: 300px !important;
         
+     }
+
+     .projsect{
+        height: 300px !important;
+     }
+     .img9 img {
+        width: 200px !important;
+        height: 360px !important;
+        top: -8% !important;
+        left: 4% !important;
+     }
+
+     .abouts{
+        width: 270px !important;
+        margin-left: 58% !important;
+        margin-top: 20px !important;
+     }
+     .abouts p{
+        font-size: 12px !important;
+     }
+     .abouts h1{
+        font-size: 15px !important;
+     }
+     .abouts button{
+        width: 79px !important;
+        font-size: 10px !important;
+     }
+
+     .blogs h1{
+        font-size: 25px !important;
+     }
+
+     .b-p{
+        font-size: 15px !important;
+        width: 330px !important;
+     }
+
+     .office{
+        display: grid !important;
+        grid-template-columns: auto auto !important;
+     }
+
+     .employe{
+        width: 140px !important;
+     }
+     .employe p{
+        font-size: 15px !important;
+     }
+     .employe button{
+        width: 90px !important;
+        font-size: 12px !important;
+        margin-top: 20px !important;
+     }
+
+     .bts{
+        margin-left: 27% !important;
+        width: 130px !important;
      }
 }
 
@@ -597,27 +666,28 @@ font-size: 17px;
 color: white;
 border-radius: 9px;
 margin-top: 50px;
-margin-left: 40%;
+margin-left: 45%;
 transition: all 1s;
 }
 
 .projects button:hover{
     transform: scale(0.9);
 }
+/* ..................................... */
 
 .projsect{
     display: flex;
     margin-top: 140px;
     background-color: rgba(232, 217, 217, 0.723);
     position: relative;
-    height: 350px;
+    height: 370px;
     
 }
 .abouts{
-    margin-left: 800px;
+    margin-left: 55%;
     width: 600px;
     height: 200px;
-    padding-top: 80px;
+    padding-top: 6%;
 }
 .abouts h1{
     margin-top: 7px;
