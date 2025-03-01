@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ .mennav{
+   
+   
+   height: 110px;
+   width: 1530px;
+   background-color: rgba(228, 225, 225, 0.499);
+ }
+ .menimg img{
+    width: auto;
+    height: 90px;
+ }
+ .menimg{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .menimg ul li{
+   display: inline;
+   padding-right: 30px;
+ }
+ .menimg ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   margin-right: 80px;
+ }
+ .menbg img{
+   margin: auto;
+   display: block;
+ }
+ .menbg h5{
+   text-align: center;
+            font-size: 25px;
+            /* padding: 20px; */
+            margin-top: 7px;
+            font-style: italic;
+ }
+ .menbg h1{
+   text-align: center;
+   font-size: 60px;
+   font-weight: 30px;
+   font-style:italic;
+   margin-top: 0;
+ }
+ .menbg p{
+   text-align: center;
+   font-size: 20px;
+
+ }
+
+ .rect{
+
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+   /* list-style: none; */
+}
+.rect ul li {
+   list-style: none;
+}
+
+.resource ul li{
+   margin-top: 15px;
+   font-size: 18px;
+}
+.help ul li {
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.company ul li {
+margin-top: 20px;
+font-size: 18px;
+}
+
+footer p {
+   margin-top: 40px;
+   font-size: 20px;
+}
+input{
+   margin-left: 200px;
+   border-radius: 5px;
+   padding-right: 30px;
+   height: 25px;
+   background-color: rgba(228, 225, 225, 0.499);
+   /* border: 2px solid black; */
+   padding-left: 5px;
+}
+.menimg i{
+   margin-right: 20px;
+}
+
+
+
+
+ .parent {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    margin: auto;
+    background-color: rgba(234, 223, 223, 0.56);
+    padding: 20px;
+    /* background-image: url('./bg.jpg'); */
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+
+
+.card {
+    width: 300px;
+    height: auto;
+    background-color: rgb(243, 237, 237);
+    margin: auto;
+    /* padding: 30px; */
+    box-sizing: 100px;
+    margin-top: 40px;
+    /* border-radius: 5px; */
+    box-shadow: 0 5px 10px rgb(17, 0, 17, 0.3);
+    overflow: hidden;
+
+
+
+ }
+
+ 
+ .h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+ }
+
+ h1 {
+    text-align: center;
+    padding-top: 20px;
+ }
+
+ p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .card-img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+ }
+
+ .img2 {
+    background-image: url('./AIR+FORCE+1+\'07.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 2s;
+ }
+
+ .img3 {
+    background-image: url('./bag.jpg');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 2s;
+ }
+ .img4 {
+    background-image: url('./pant.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 2s;
+ }
+ .img5 {
+    background-image: url('./jacket.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 2s;
+ }
+
+ .img6 {
+    background-image: url('./shorts.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 2s;
+ }
+
+ .img7 {
+    background-image: url('./hoodie.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 2s;
+ }
+
+ .img2:hover , .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover{
+    transform: scale(1.5, 1.5);
+ }
+
+ footer p {
+   margin-top: 40px;
+   font-size: 20px;
+}
+footer{
+   height: 400px;
+}
+
+ /*                                         women                          */
+
+
+ * {
+   margin: 0;
+   padding: 0;
+}
+
+.womennav{
+   height: 110px;
+  width: 1530px;
+  background-color: rgba(228, 225, 225, 0.499);
+}
+.womenimg img{
+   width: auto;
+   height: 90px;
+}
+.womenimg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.womenimg ul li{
+  display: inline;
+  padding-right: 30px;
+}
+.womenimg ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 80px;
+}
+
+ .womenbg img{
+   margin: auto;
+   display: block;
+   height: 500px;
+   width: 600px;
+ }
+ .womenbg h5{
+   text-align: center;
+            font-size: 25px;
+            /* padding: 20px; */
+            margin-top: 7px;
+            font-style: italic;
+ }
+ .womenbg h1{
+   text-align: center;
+   font-size: 60px;
+   font-weight: 30px;
+   font-style:italic;
+   margin-top: 0;
+ }
+ .womenbg p{
+   text-align: center;
+   font-size: 20px;
+
+ }
+
+ .wmn2 {
+   background-image: url(./womenimg/wmnimg1.jpg);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.wmn3 {
+   background-image: url(./womenimg/wmnimg2.webp);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+.wmn4 {
+   background-image: url(./womenimg/womn3.webp);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+.wmn5 {
+   background-image: url(./womenimg/womjacket.jpg);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.wmn6 {
+   background-image: url(./womenimg/wmn\ socks.png);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.wmn7 {
+   background-image: url(./womenimg/wmn4.webp);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.wmn2:hover , .wmn3:hover, .wmn4:hover, .wmn5:hover, .wmn6:hover, .wmn7:hover{
+   transform: scale(1.5, 1.5);
+}
+.womenimg i{
+   margin-right: 20px;
+}
+
+/*  ..............................................sneakers............................ */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.sneakersnav{
+   height: 110px;
+  width: 1530px;
+  background-color: rgba(228, 225, 225, 0.499);
+}
+.sneakersimg img{
+   width: auto;
+   height: 90px;
+}
+.sneakersimg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sneakersimg ul li{
+  display: inline;
+  padding-right: 30px;
+}
+.sneakersimg ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 80px;
+}
+.card p{
+   margin-top: 5px;
+   font-size: 15px;
+}
+
+
+
+
+.sneakersrs img{
+   margin: auto;
+   display: block;
+   height: 500px;
+   width: 600px;
+ }
+ .sneakersrs h5{
+   text-align: center;
+            font-size: 25px;
+            /* padding: 20px; */
+            margin-top: 7px;
+            font-style: italic;
+ }
+ .sneakersrs h1{
+   text-align: center;
+   font-size: 60px;
+   font-weight: 30px;
+   font-style:italic;
+   margin-top: 0;
+ }
+ .sneakersrs p{
+   text-align: center;
+   font-size: 30px;
+
+
+ }
+
+ .snk2 {
+   background-image: url(./sneakersimg/snk1.webp);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.snk3 {
+   background-image: url(./sneakersimg/snk2.jpg);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+.snk4 {
+   background-image: url(./sneakersimg/snk3.webp);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+.snk5 {
+   background-image: url(./sneakersimg/snk4.avif);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.snk6 {
+   background-image: url(./sneakersimg/snk5.avif);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.snk7 {
+   background-image: url(./sneakersimg/snk6.jpg);
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   transition: transform 2s;
+}
+
+.snk2:hover , .snk3:hover, .snk4:hover, .snk5:hover, .snk6:hover, .snk7:hover{
+   transform: scale(1.5, 1.5);
+}
+.sneakersimg i {
+   margin-right: 20px;
+}

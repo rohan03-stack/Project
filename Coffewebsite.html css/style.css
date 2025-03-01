@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    /* background-color:  rgba(55, 2, 2, 0.978); */
+    /* background-image: linear-gradient(); *
+
+} */
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /* color: black; */
+
+    /* position: relative; */
+    
+}
+.nav1 img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.nav1 ul li{
+    display: inline;
+    /* margin-right: 10px; */
+    /* padding-left: 30px; */
+    font-size: 25px;
+    padding: 30px;
+    font-weight: bold;
+}
+.nav1 ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav1 button{
+    width: 90px;
+    height: 40px;
+    margin-right: 70px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+}
+.container1 img{
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    position: relative;
+}
+.container2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
+    width: 47%;
+    color: white;
+    /* text-align: center; */
+    /* padding: 20px; */
+    padding-top: 10px;
+}
+.container2 h1{
+font-weight: bolder;
+font-size: 50px;
+/* font-family: 'Courier New'; */
+margin-top: 10px;
+}
+.container2 h3{
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+.container2 h4{
+    /* font-weight: bold; */
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.container2 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+    /* background-color: rgba(55, 2, 2, 0.978); */
+    background-color: rgb(241, 238, 238);
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.container3{
+ text-align: center;
+ /* background-image: linear-gradient( rgb(35, 4, 4), rgb(68, 23, 23), rgb(34, 3, 3)); */
+ background-color: rgb(241, 238, 238);
+ width: 100%;
+ height: 80px;
+}
+.container3 h2{
+    font-size: 25px;
+    font-style: bold;
+    color: black;
+    padding-top: 5px;
+}
+.container3 h1{
+    color: black;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* background-image: linear-gradient( rgb(35, 4, 4), rgb(99, 62, 62), rgb(34, 3, 3)); */
+    background-color: rgb(241, 238, 238);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    padding-bottom: 10PX;
+}
+.card1{
+    /* display: flex; */
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    border: 2px solid;
+    /* padding-top: 30; */
+    /* margin-top: 30px;   */
+    position: relative;
+    /* background-image: linear-gradient( rgb(35, 4, 4), rgb(51, 15, 15), rgb(34, 3, 3)); */
+    background-color: rgb(241, 238, 238);
+    margin-left: 18%;
+    margin-top: 10px;
+    border: 5px solid blue;
+    /* padding-bottom: 20px; */
+
+}
+.card1 img{
+    width: 80px;
+    height: 60px;
+    /* clear: both; */
+    position: absolute;
+    left: -4%;
+    top: 19%;
+
+}
+.card1 h1 {
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    margin-left: 50px;
+    font-weight: bolder;
+
+}
+.card1 p{
+    text-align: center;
+    width: 60%;
+    margin-left: 80px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+}
+.container4{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.aboutbg{
+    background-image: url(./img/ing5.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+.about{
+    width: 500px;
+    height: 300px;
+    border: 4px solid black;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(10, 10, 10);
+}
+.about h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.about p{
+    font-weight: bold;
+    padding-top: 5px;
+}
+.about button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 2px;
+    /* font-size: 15px; */
+}
+
+.container5{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(241, 238, 238);
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+   
+  
+    position: relative;
+}
+
+.services{
+    width: 350px;
+    height: 300px;
+    /* border: 3px solid black; */
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px black;
+    color: black;
+    /* background-color: red; */
+    /* padding: 5px; */
+/* padding-left: 60px; */
+margin-left: 60px;
+margin-top: 40px;
+
+}
+
+.container5 img{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    transition: 2s;
+}
+.container5 img:hover{
+       transform: translate(10px);
+}
+
+.services h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.services p{
+    font-weight: bold;
+    padding-top: 5px;
+}
+    
+.container5 h2{
+    position: absolute;
+    left: 40%;
+    color: black;
+    font-size: 40px;
+    
+}
+
+
+
+.container6{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    /* background-image: linear-gradient( rgb(35, 4, 4), rgb(51, 15, 15), rgb(34, 3, 3)); */
+    background-color: rgb(241, 238, 238);
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.container6 h1{
+    font-weight: bolder;
+}
+.container6 p{
+    font-weight: bold;
+    padding-top: 50px;
+    width: 40%;
+    padding-left: 30%;
+}
+
+.icon{
+    width: 100px;
+    height: 80px;
+    margin-left: 46%;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.icon i{
+    padding-top: 30px;
+    display: block;
+    /* height: 90px; */
+}
+
+.container6 h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container6 h4{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+}
+footer p{
+    color: white;
+    padding-left: 40%;
+    padding-top: 20px;
+    /* display: flex; */
+    position: absolute;
+    top: 20%;
+}
+
+
+.footer img{
+    width: 150px;
+    height: 90px;
+}
+
+.container8{
+    width: 100%;
+    height: 200px;
+    /* background-image: linear-gradient( rgb(35, 4, 4), rgb(51, 15, 15), rgb(34, 3, 3));
+     */
+     background-color: rgb(241, 238, 238);
+
+    color: black;
+     display: flex; 
+    margin: auto;
+    position: relative;
+}
+.container8 i {
+ display: flex; 
+ /* margin-left: 100px; */
+ /* margin-top: 60px; */
+ padding-left: 220px;
+ padding-top: 100px;
+ font-size: 20px;
+ text-align: center;
+}
+.container8 i h4{
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.about1{
+    width: 100%;
+    height: 200px;
+    color: black;
+    /* position: absolute; */
+    /* background-image: linear-gradient( rgb(35, 4, 4), rgb(51, 15, 15), rgb(34, 3, 3)); */
+     background-color: rgb(241, 238, 238);
+    padding: 40px;
+    position: relative;
+    
+}
+.about1 h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.about1 p{
+    width: 40%;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+}
+.about1 i{
+    padding-top: 15px;
+    /* position: absolute; */
+    /* left: 40%; */
+    margin-right: 30px;
+    font-size: 30px;
+
+}
+.icon3{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+.body{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    /* border-right: 2px solid black; */
+    padding: 40px;
+    /* background-image: linear-gradient( rgb(35, 4, 4), rgb(51, 15, 15), rgb(34, 3, 3)); */
+     background-color: rgb(241, 238, 238);
+    color: black;
+    /* display: block; */
+}
+
+.container7{
+    width: 600px;
+    height: 250px;
+    border: 4px solid black;
+    border-radius: 5px;
+    margin-left: 200px;
+    padding: 20px;
+    display: flex;
+}
+
+
+.form{
+  width: 45%;
+  height: 200px;
+  margin-left: 100px;   
+  border-right: 2px solid black;
+  padding-top: 40px;
+  font-size: 20px;
+  padding-right: 60px;
+  /* gap: 100px; */
+  /* display: flex; */
+
+}
+.formicon i {
+    display: block;
+    padding-left: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    /* gap: 20px; */
+}
+
+input{
+    margin-left: 20px;
+}
+
+
+
