@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Fortfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,Im <span>Rohan</span><br>Gaikwad from Mumbai</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aut suscipit aperiam nisi sapiente, soluta rem id vel cum fuga? Harum accusantium id sit animi ratione commodi velit in saepe optio ab nam qui neque, odio ipsum soluta! Fugiat quisquam ab culpa, cum magnam ipsa, dolore aliquam fuga dignissimos debitis saepe quibusdam tempore sapiente. Dolores corporis aspernatur quam animi tempora!</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web interfaces</li>
+                            <li><span>Web Development</span><br>web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>Fresher</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Degree - 2024</span><br>Smt K.G Mittal institute of management Information Technology and Research College</li>
+                                <li><span>HSC - 2021</span><br>Swami Vivekanand International School and Junior College</li>
+                                <li><span>SSC - 2019</span><br>Our Lady of remedy High School Mumbai University</li>                    
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- ................... Services............. -->
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid modi dolor, reprehenderit similique iure magnam eum facere eaque ipsum dolorum, repellat blanditiis doloremque? Quisquam facilis similique nisi aut necessitatibus.</p>
+                    <a href="#">Learn more</a>
+                </div> 
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid modi dolor, reprehenderit similique iure magnam eum facere eaque ipsum dolorum, repellat blanditiis doloremque? Quisquam facilis similique nisi aut necessitatibus.</p>
+                    <a href="#">Learn more</a>
+                </div> 
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid modi dolor, reprehenderit similique iure magnam eum facere eaque ipsum dolorum, repellat blanditiis doloremque? Quisquam facilis similique nisi aut necessitatibus.</p>
+                    <a href="#">Learn more</a>
+                </div> 
+            </div>
+
+        </div>
+    </div>
+    <!-- ...............portfolio................ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <P>The app connects you the talented people around the world Download it from play store</P>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <P>The app connects you the talented people around the world Download it from play store</P>
+                    </div>                    
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <P>The app connects you the talented people around the world Download it from play store</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ..........contact.......... -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>ronygaikwad@gmail.com</p>
+                    <p>7900076919</p>
+                    <a href="images/CV_2024060522081881.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    <script>
+        
+        var tablinks  = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+
+           
+    </script>
+</body>
+</html>
