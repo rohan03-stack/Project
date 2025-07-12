@@ -11,8 +11,8 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
-            <div class="nav-links">
-               <i class="fa-solid fa-xmark"></i>
+            <div class="nav-links" id="navLinks">
+               <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
 
                 <ul>
                     <li><a href="">HOME</a></li>
@@ -22,7 +22,7 @@
                                         <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
-           <i class="fa-solid fa-bars"></i>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
 
         </nav>
 
@@ -32,5 +32,39 @@
             <a href="" class="hero-btn">Visit Us To know More</a>
         </div>
     </section>
+
+
+    <!-- .....................................course.................... -->
+
+
+<section class="course">
+<h1>Courses We Offer</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate cum saepe repudiandae. Ab, sunt labore ipsam modi praesentium optio!</p>
+    </div>
+</div>
+</section>
+
+
+
+
+    <!-- .......................javacript for toggle menu.................... -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
 </body>
 </html>
