@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                         <li><a href="">ABOUT</a></li>
+                              <li><a href="">COURSE</a></li>
+                                   <li><a href="">BLOGS</a></li>
+                                        <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+       <h1>Our Certificates and Online Programs For 2025</h1>
+    </section>
+
+<!-- ......................blog content ...... -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+<img src="eduford_img/certificate.jpg" alt="">
+<h2>Our Certificates and Online Programs For 2025</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur earum quasi non dolorem. Saepe facilis dignissimos ipsum corporis mollitia nam voluptas optio reiciendis, cum quaerat! Ad, suscipit praesentium fugiat enim incidunt voluptatibus aspernatur tempore recusandae nam quidem nostrum accusantium ipsa minima sequi earum porro modi ullam, eos ratione hic libero alias quos qui saepe? Quis, deleniti est! Debitis, nesciunt delectus!</p>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quo amet numquam quia dicta aut exercitationem assumenda ad officia nam fugit iste iure dolor quaerat ex animi asperiores rerum ut veniam necessitatibus inventore vitae tenetur est magni? Labore mollitia laborum sunt sint modi consectetur, vitae nemo adipisci ut vero quo eum asperiores voluptate reiciendis perferendis, suscipit voluptas culpa quas! Eos dicta facilis dolore ullam praesentium quidem laborum in quia ipsum?</p>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aspernatur, facilis obcaecati, laborum, ratione dolore asperiores ipsam veniam assumenda voluptatem molestias sint reiciendis. Expedita dignissimos inventore id autem incidunt perspiciatis mollitia neque qui. Voluptas quibusdam tempora qui exercitationem et. Ipsam minima corrupti est quibusdam et, veritatis tenetur qui explicabo reprehenderit ratione asperiores ab laudantium itaque aliquid non, aperiam laborum modi dolorum consequuntur laboriosam sed. Corporis ipsum iste expedita iure autem placeat? Voluptate sed recusandae dolor quia incidunt assumenda, magni velit?</p>
+<br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sequi repellat eligendi delectus temporibus molestias! Error ut ea quibusdam beatae aliquid officia consectetur ab dignissimos autem? Sit quaerat nihil laborum a, quisquam architecto sunt tempora minima ipsam consectetur repudiandae, nemo quidem odio harum accusantium numquam? Dolor dolorum exercitationem tenetur quisquam possimus, nobis quidem suscipit pariatur quis minus? Repudiandae perferendis nesciunt odit consequatur ducimus ea optio assumenda vero quis obcaecati tempora expedita necessitatibus eos porro ipsam ratione libero nisi, magnam laudantium.</p>
+
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMIT</button>
+    </form>
+</div>
+        </div>
+          <div class="blog-right">
+<h3>Post Categories</h3>
+<div>
+    <span>Bussiness Analytics</span>
+    <span>21</span>
+</div>
+
+<div>
+    <span>Data Science</span>
+    <span>28</span>
+</div>
+<div>
+    <span>Machine Learning</span>
+    <span>15</span>
+</div>
+<div>
+    <span>Computer Science</span>
+    <span>34</span>
+</div>
+<div>
+    <span>AutoCAD</span>
+    <span>42</span>
+</div>
+
+<div>
+    <span>Journalism</span>
+    <span>22</span>
+</div>
+
+<div>
+    <span>Commerce</span>
+    <span>30</span>
+</div>
+
+
+
+
+          </div>
+    </div>
+
+</section>
+
+ <!-- ....................footer........................... -->
+
+ <section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit eveniet placeat ipsam rem quibusdam possimus dolores facilis sed? <br> Doloremque non consectetur pariatur! Explicabo quo autem unde.</p>
+<div class="icons">
+     <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+         <i class="fa-brands fa-linkedin"></i>
+         
+</div>
+<p>Made with  <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+ </section>
+
+
+    <!-- .......................javacript for toggle menu.................... -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+</body>
+</html>
